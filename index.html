@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Run Buddy</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    
+    <body>
+        <!--navigation-->
+        <header>
+        <a href="/"><h1>RUN BUDDY</h1></a>
+        <nav>
+            <!--unordered list element-->
+            <ul>
+                <!--list item element-->
+                <li>
+                    <!--anchor element-->
+                    <a href="#what-we-do">What We Do</a>
+                </li>
+
+                <li>
+                    <a href="#what-you-do">What You Do</a>
+                </li>
+
+                <li>
+                    <a href="#meet-the-trainers">Meet The Trainers</a>
+                </li>
+
+                <li>
+                    <a href="#reach-out">Reach Out</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+
+        <!--hero section-->
+        <section class="hero">
+            <div class="hero-form">
+                <h3>Get Started Today</h3>
+                <p>Fill out this form and one of our trainers will schedule a consultation</p>
+                <!--form element-->
+                <form>
+                    <!--contact info input-->
+                    <label for="name">Enter full name:</label>
+                    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+
+                    <label for="email">Enter email address:</label>
+                    <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+
+                    <label for="phone">Enter a telephone number:</label>
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+                    
+                    <!--radio button input-->
+                    <p>
+                        Have you worked out with a trainer before?
+                        <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                        <label for="trainer-yes">Yes</label>
+                        <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                        <label for="trainer-no">No</label>
+                    </p>
+
+                    <!--checkbox input-->
+                    <p>
+                        <label>
+                            I acknowledge that I am at least 18 years of age.
+                            <input type="checkbox" name="user-age" id="age-confirm"/>
+                        </label>
+                    </p>
+
+                    <!--submit button-->
+                    <button type="submit">
+                        Get Running!
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!--"what we do" section-->
+        <section id="what-we-do" class="intro">
+            <h2 class="section-title primary-border">What We Do</h2>
+            <p>
+                Here at Run Buddy, we strive to help you attain the levels of physical health you've always wanted. Our expert trainers work according to your specific needs to ensure that all of your accomadations are met. With our guidance you'll not only look better, but feel better as well! Sign up now for a free consultation.
+            </p>
+        </section>
+
+        <!--"what you do" section-->
+        <section id="what-you-do" class="steps">
+            <h2 class="section-title secondary-border">What You Do</h2>
+
+            <div>
+                <img src="./assets/images/01-04-svgs/step-1.svg" alt="">
+                <h3>
+                    Step 1: <span>Fill Out the Form Above</span>
+                </h3>
+                <p>You're already here, so why not?</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/01-04-svgs/step-2.svg" alt="">
+                <h3>
+                    Step 2: <span>Consult with One of Our Trainers.</span>
+                </h3>
+                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/01-04-svgs/step-3.svg" alt="">
+                <h3>
+                    Step 3: <span>Get Running.</span>
+                </h3>
+                <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/01-04-svgs/step-4.svg" alt="">
+                <h3>
+                    Step 4: <span>See Results.</span>
+                </h3>
+                <p>Bi-weekly checkins with your trainer will keep you focused!</p>
+            </div>
+        </section>
+
+        <!--"meet the trainers" section-->
+        <section id="meet-the-trainers" class="trainers">
+            <h2 class="section-title primary-border">Meet The Trainers</h2>
+            
+            <!--1st trainer bio-->
+            <article class="trainer">
+                <img src="./assets/images/01-05-trainers/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron">
+                <div class="trainer-bio text-left">
+                    <h3>Arron Stephens</h3>
+                    <h4>Speed / Strength</h4>
+                    <p>
+                        Arron is a former Olypmic gold medalist, who's won multiple gold medals in track and field, weightlifting, and shot-put. When it comes to being fast and strong, no one is a better mentor than him.
+                    </p>
+                </div>
+            </article>
+
+            <!--2nd trainer bio-->
+            <article class="trainer">
+                <div class="trainer-bio text-right">
+                    <h3>Joanna Gill</h3>
+                    <h4>Endurance</h4>
+                    <p>Joanna is a world-renowned triathlon champion. Having both competed in and mentored for a variety of different races, she's extremely talented at getting prospective competitors into shape!</p>
+                </div>
+                <img src="./assets/images/01-05-trainers/trainer-2.jpg" alt="Joanna in her typical runner's gear, prepping to do some high-intensity training.">
+            </article>
+
+            <!--3rd trainer bio-->
+            <article class="trainer">
+                <img src="./assets/images/01-05-trainers/trainer-3.jpg" alt="Showing that anyone can become fit, Harry works on his patented lifting form.">
+                <div class="trainer-bio text-left">
+                    <h3>Harry "The Headband" Smith</h3>
+                    <h4>Strength</h4>
+                    <p>Wearing his signature headband, Harry is ready to bring the average joe from Zero to Hero with his patented workout regime that's tailored to those that may not be in the best of shape.</p>
+                </div>
+            </article>
+        </section>
+
+        <!--"reach out" section-->
+        <section id="reach-out" class="contact">
+            <h2 class="section-title secondary-border">Reach Out</h2>
+
+            <div class="contact-info">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12479.780239353504!2d-121.4337558!3d38.5580796!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ada92c5854739%3A0x4de3582820be5796!2sThe%20WELL!5e0!3m2!1sen!2sus!4v1639642663383!5m2!1sen!2sus"
+                width="400"
+                height="400"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy">
+                </iframe>
+
+                <div>
+                    <h3>Run Buddy</h3>
+                    <p>
+                        Any questions or concerns before signing up?
+                        <br />
+                        Let us know and we'll be happy to help you!
+                    </p>
+                    <address>
+                        6000 J <br />
+                        Sacramento, CA <br />
+                        95819 <br />
+                        P: 555.RUN.BUDZ (555.786.2839)<br />
+                        E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+                    </address>
+                </div>
+            </div>
+        </section>
+
+        <!--footer-->
+        <footer>
+            <h2><span style="color: #ff0000;">&#10084;</span> Made with love by Run Buddy.</h2>
+            <div>
+                <a href="./privacy-policy.html">Read Our Privacy Policy</a><br />
+                &copy; 2019 Run Buddy, Inc.
+            </div>
+        </footer>
+    </body>
+</html>
